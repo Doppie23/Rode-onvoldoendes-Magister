@@ -2,8 +2,10 @@
 window.addEventListener("load", function() {
     var x = document.body.getElementsByClassName('grade');
     console.log(x)
-    for (var i =0,len = x.length; i<len;i++)
+    len = x.length
+    for (var i =0; i<=len;  i++)
     {
-        x[i].style['color']= 'red';
+        console.log("ttest")
+        x[i].style.color= '#f00'; //#ff000042
     }
     });
