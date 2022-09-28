@@ -1,12 +1,13 @@
 {
     "name": "Magister onvoldoendes weer rood",
     "description": "Maakt de onvoldoendes in magister weer rood.",
-    "version": "1.0",
+    "version": "0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
          "matches": ["http://ccnv.magister.net/*","https://ccnv.magister.net/*"],
-         "js": ["script.js"]
+         "js": ["jquery-3.6.1.min.js", "script.js"],
+         "css": ["styles.css"]
         }
        ]
   }

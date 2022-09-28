@@ -1,11 +1,6 @@
+$(window).ready(function() {
+    console.log("It's loaded!");
+    document.getElementById("grade")
+    $("td").addClass("onvoldoende");
+});
 
-window.addEventListener("load", function() {
-    var x = document.body.getElementsByClassName('grade');
-    console.log(x)
-    len = x.length
-    for (var i=0; i<=len; i++)
-    {
-        console.log(x[i])
-        x[i].classList.add("cijfer")
-    }
-    });

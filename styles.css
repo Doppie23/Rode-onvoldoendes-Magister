@@ -1,0 +1,15 @@
+.grade {
+    color: rgb(0, 255, 81);
+}
+
+.onvoldoende {
+    color: red;
+}
+
+.cijfer {
+    color: red;
+}
+
+[title="6,5"] {
+    color: aqua;
+}
