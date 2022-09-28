@@ -1,15 +1,60 @@
-.grade {
-    color: rgb(0, 255, 81);
+[title="5,4"] {
+    color: rgb(255, 0, 0);
 }
 
-.onvoldoende {
-    color: red;
+[title="5,3"] {
+    color: rgb(255, 0, 0);
 }
 
-.cijfer {
-    color: red;
+[title="5,2"] {
+    color: rgb(255, 0, 0);
 }
 
-[title="6,5"] {
-    color: aqua;
+[title="5,1"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="5,0"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,9"] {
+    color: rgb(255, 0, 0);
+}
+
+
+[title="4,8"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,7"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,6"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,5"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,4"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,3"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,2"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,1"] {
+    color: rgb(255, 0, 0);
+}
+
+[title="4,0"] {
+    color: rgb(255, 0, 0);
 }

@@ -6,7 +6,6 @@
     "content_scripts": [
         {
          "matches": ["http://ccnv.magister.net/*","https://ccnv.magister.net/*"],
-         "js": ["jquery-3.6.1.min.js", "script.js"],
          "css": ["styles.css"]
         }
        ]
