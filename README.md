@@ -10,7 +10,7 @@ chrome://extensions/
 
 * Zet dan rechtsbovenin 'ontwikkelaarmodus' aan
 * Klik op 'Uitgepakte extensie laden'
-* Ga naar de plek waar je het zip bestand het uitgepakt
+* Ga naar de plek waar je het zip bestand hebt uitgepakt
 
 ![Directroy selecteren](/Afbeeldingen/directoryselect.png?raw=true)
 * Klik op map selecteren
@@ -30,5 +30,5 @@ Firefoxinstallformfile.png
 * Klik op 'Install Add-on From file...'
 
 ![Install from file](/Afbeeldingen/firefoxdir.png?raw=true)
-* Ga naar de plek waar je het zip bestand heb uitgepakt en open het .xpi bestand
+* Ga naar de plek waar je het zip bestand hebt uitgepakt en open het .xpi bestand
 * Klaar is Kees
