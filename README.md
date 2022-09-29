@@ -24,7 +24,6 @@ chrome://extensions/
 about:addons
 ```
 * klik op het instellingen icoontje
-Firefoxinstallformfile.png
 
 ![Install from file](/Afbeeldingen/Firefoxinstallformfile.png?raw=true)
 * Klik op 'Install Add-on From file...'
