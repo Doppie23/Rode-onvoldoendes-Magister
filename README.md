@@ -14,4 +14,4 @@ chrome://extensions/
 
 ![Directroy selecteren](/Afbeeldingen/directoryselect.png?raw=true)
 * Klik op map selecteren
-* Klaar is kees
+* Nu kan het huilen weer beginnen
