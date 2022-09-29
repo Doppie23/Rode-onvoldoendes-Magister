@@ -19,7 +19,7 @@ function onvoldoendes(){
             let output = parseFloat(cijfer.replace(/,/g, '.'), 2);
             // console.log("comma weg"+output);
             // console.log("class"+x[i].className)
-            if (output <= 5.5 && cijfer !== "" && output != 0) {
+            if (output < 5.5 && cijfer !== "" && output != 0) {
                 // console.log("onvoldeonde");
                 x[i].classList.add("onvoldoende");
             }        
