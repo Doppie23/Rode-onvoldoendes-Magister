@@ -1,7 +1,7 @@
 # Rode-onvoldoendes-Magister
 Een browser extensie die de onvoldoendes in Magister weer rood maakt.
 ## Installatie Chrome
-* Download meest recente versie op github bij releases (rechts)
+* Download de meest recente chrome versie op github bij releases (rechts)
 * Sla dit bestand ergens op en pak de het zip bestand uit
 * Ga in Chrome naar:
 ```
