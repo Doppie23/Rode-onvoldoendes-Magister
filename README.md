@@ -15,3 +15,6 @@ chrome://extensions/
 ![Directroy selecteren](/Afbeeldingen/directoryselect.png?raw=true)
 * Klik op map selecteren
 * Nu kan het huilen weer beginnen
+
+## Installatie Firefox
+*Firefox en andere browsers komen nog*
