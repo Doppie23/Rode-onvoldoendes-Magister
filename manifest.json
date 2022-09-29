@@ -7,7 +7,7 @@
         {
          "matches": ["http://ccnv.magister.net/*","https://ccnv.magister.net/*"],
          "css": ["styles.css"],
-         "js": ["jquery-3.6.1.min.js", "script.js"]
+         "js": ["script.js"]
         }
        ]
   }
