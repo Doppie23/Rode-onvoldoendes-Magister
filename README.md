@@ -14,7 +14,7 @@ chrome://extensions/
 
 ![Directroy selecteren](/Afbeeldingen/directoryselect.png?raw=true)
 * Klik op map selecteren
-* Nu kan het huilen weer beginnen
+* En klaar, nu kan het huilen om alle rode cijfers weer beginnen 😎
 
 ## Installatie Firefox
 *Firefox en andere browsers komen nog*
