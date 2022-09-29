@@ -12,6 +12,6 @@ chrome://extensions/
 * Klik op 'Uitgepakte extensie laden'
 * Ga naar de plek waar je het zip bestand het uitgepakt
 
-![Directroy selecteren](/Rode-onvoldoendes-Magister/Afbeeldingen/directoryselect.png?raw=true)
+![Directroy selecteren](/Afbeeldingen/directoryselect.png?raw=true)
 * Klik op map selecteren
 * Klaar is kees
