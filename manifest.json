@@ -12,13 +12,13 @@
     "content_scripts": [
         {
          "matches": ["http://*.magister.net/*","https://*.magister.net/*"],
-         "css": ["styles.css"],
-         "js": ["script.js"]
+         "css": ["rode-cijfers/styles.css"],
+         "js": ["rode-cijfers/script.js"]
         },
         {
          "matches": ["http://*.magister.net/*","https://*.magister.net/*"],
-         "js": ["spoilertag.js"],
-         "css": ["spoiler.css"]
+         "js": ["spoilertag/spoilertag.js"],
+         "css": ["spoilertag/spoiler.css"]
         }
        ]
     

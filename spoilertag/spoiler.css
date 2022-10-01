@@ -4,7 +4,11 @@
     color: transparent;
 }
 
-.spoiler:hover{
+/* .spoiler:hover{
+    color: white;
+} */
+
+.spoilerbg:hover .spoiler{
     color: white;
 }
 
