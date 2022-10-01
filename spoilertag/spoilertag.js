@@ -7,9 +7,9 @@ function spoiler(){
         console.log(x)
         x[0].classList.add("spoiler");
         
-        var x = document.body.getElementsByClassName("omschrijving");
-        console.log(x)
-        x[0].classList.add("spoiler");
+        // var x = document.body.getElementsByClassName("omschrijving");
+        // console.log(x)
+        // x[0].classList.add("spoiler");
 
         var x = document.body.getElementsByClassName("last-grade");
         console.log(x)
