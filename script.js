@@ -55,7 +55,7 @@ function waitForElm(selector) {
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
 var observer = new MutationObserver(function(mutations, observer) {
-    console.log(mutations, observer)
+    // console.log(mutations, observer)
     // console.log(mutations.length);
     if (mutations.length > 100){
         // console.log("pagina switch");

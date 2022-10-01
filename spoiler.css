@@ -1,0 +1,11 @@
+.spoiler{
+    /* background: linear-gradient(180deg, #000000 90%, #00ffff00 10%); */
+    background-color: transparent;
+    color: transparent;
+}
+
+.spoiler:hover{
+    color: white;
+}
+
+/* rgb(170,182,186); */
