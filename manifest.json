@@ -11,18 +11,18 @@
         },
     "content_scripts": [
         {
-         "matches": ["http://*.magister.net/*","https://*.magister.net/*"],
+         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
          "css": ["rode-cijfers/styles.css"],
          "js": ["rode-cijfers/script.js"]
         },
         {
-         "matches": ["http://*.magister.net/*","https://*.magister.net/*"],
+         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
          "js": ["spoilertag/spoilertag.js"],
          "css": ["spoilertag/spoiler.css"]
         },
         {
-         "matches": ["http://*.magister.net/*","https://*.magister.net/*"],
-         "js": ["oude_opdrachten/oude_opdrachten.js", "jquery-3.6.1.min.js"]
+         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
+         "js": ["oude_opdrachten/oude_opdrachten.js"]
         }
        ]
     
