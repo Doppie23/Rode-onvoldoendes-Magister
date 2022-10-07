@@ -17,6 +17,7 @@ var observer = new MutationObserver(function(mutations, observer) {
             if(x[i].classList.contains('overdue') == true){
                 // console.log('rem' + x[i])
                 x[i].remove()
+                // x[i].style.visibility = 'hidden';
             }
             else{
                 continue

@@ -4,7 +4,7 @@ function spoiler(){
         
         
         var x = document.body.getElementsByClassName("cijfer");
-        console.log(x)
+        // console.log(x)
         x[0].classList.add("spoiler");
         
         // var x = document.body.getElementsByClassName("omschrijving");
@@ -12,7 +12,7 @@ function spoiler(){
         // x[0].classList.add("spoiler");
 
         var x = document.body.getElementsByClassName("last-grade");
-        console.log(x)
+        // console.log(x)
         x[0].classList.add("spoilerbg"); 
         
     });
