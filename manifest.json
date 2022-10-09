@@ -9,17 +9,12 @@
          "48": "icons/icon48.png",
          "128": "icons/icon128.png" 
         },
-    "host_permissions": [
-            "http://*/*",
-            "https://*/*"
-          ],
     "permissions": [
     "storage",
-    "tabs",
     "scripting"
     ],
     "action":{
-        "default_title": "Test titel",
+        "default_title": "Rode onvoldoendes Magister",
         "default_popup": "popup.html"
     },
     "content_scripts": [
