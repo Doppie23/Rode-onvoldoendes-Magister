@@ -8,7 +8,7 @@ function save_options() {
 
 
         var status = document.getElementById('status');
-        status.textContent = 'Options saved.';
+        status.textContent = 'Opgeslagen.';
         setTimeout(function() {
         status.textContent = '';
         }, 750);
