@@ -11,20 +11,27 @@ var observer = new MutationObserver(function(mutations, observer) {
         var table = document.getElementById('tbodyID');
         var x = table.getElementsByTagName('tr');
 
-        var i = 0
-        for(var i=x.length - 1; i >= 0; i--){
-            // console.log(x[i].classList.contains('overdue'));
-            if(x[i].classList.contains('overdue') == true){
-                // console.log('rem' + x[i])
-                x[i].remove()
-                // x[i].style.visibility = 'hidden';
+        chrome.storage.sync.get(['Checked'], function(checked){
+        const checkstatus = checked.Checked;
+        console.log(x)
+        if(checkstatus === true){
+            var i = 0
+            for(var i=x.length - 1; i >= 0; i--){
+                // console.log(x[i].classList.contains('overdue'));
+                if(x[i].classList.contains('overdue') == true){
+                    console.log('rem' + x[i])
+                    x[i].remove()
+                    // x[i].style.visibility = 'hidden';
+                }
+                else{
+                    continue
+                }
             }
-            else{
-                continue
-            }
+            console.log("aan")
         }
-
-    }
+        else{console.log("uit")}
+        });
+    };
 });
 
 observer.observe(document, {
