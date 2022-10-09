@@ -1,7 +1,7 @@
 {
     "name": "Magister onvoldoendes weer rood",
     "description": "Maakt de onvoldoendes in magister weer rood.",
-    "version": "0.2",
+    "version": "0.3",
     "manifest_version": 3,
     "icons": 
         {  
