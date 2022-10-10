@@ -12,7 +12,7 @@ Een browser extensie die de onvoldoendes in Magister weer rood maakt.
 ## Installatie Chrome
 * Download rechts bij releases of bovenaan de versie voor Chrome
 * Sla dit bestand ergens op en pak de het zip bestand uit
-* Ga in Chrome naar:
+* Type bovenin in Chrome in de adresbalk:
 ```
 chrome://extensions/
 ```
@@ -28,7 +28,7 @@ chrome://extensions/
 ## Installatie Firefox
 * Download rechts bij releases of bovenaan de versie voor Firefox
 * Sla dit bestand ergens op en pak de het zip bestand uit
-* Ga in Firefox naar:
+* Type bovenin in Firefox in de adresbalk:
 ```
 about:addons
 ```
