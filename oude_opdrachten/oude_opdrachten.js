@@ -11,7 +11,7 @@ var observer = new MutationObserver(function(mutations, observer) {
         var table = document.getElementById('tbodyID');
         var x = table.getElementsByTagName('tr');
 
-        browser.storage.local.get(['Checked'], function(checked){
+        browser.storage.sync.get(['Checked'], function(checked){
         const checkstatus = checked.Checked;
         console.log(x)
         if(checkstatus === true){

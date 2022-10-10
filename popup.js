@@ -1,7 +1,7 @@
 // Saves options to storage
 function save_options() {
     var Check = document.getElementById('opdrachten').checked;
-    storage.local.set({
+    browser.storage.sync.set({
       Checked: Check
     }, function() {
         console.log('checkbox naar' + Check)
@@ -17,7 +17,7 @@ function save_options() {
 
 function restore_options() {
 // Use default value color = 'red' and likesColor = true.
-storage.local.get({
+browser.storage.sync.get({
     Checked: true
 }, function(items) {
     document.getElementById('opdrachten').checked = items.Checked;
