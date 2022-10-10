@@ -1,11 +1,11 @@
 # Rode-onvoldoendes-Magister
-- Download laatste versie voor Chrome: [![version](https://badges.formidable.com/browsers?googlechrome=v0.2)](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9737673/Magister.Rode.Onvoldoendes.Chrome.v0.2.zip)
+- Download laatste versie voor Chrome:
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-red?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9737673/Magister.Rode.Onvoldoendes.Chrome.v0.2.zip)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-red?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9745669/Magister.Rode.Onvoldoendes.Chrome.v0.3.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
-- Download laatste versie voor Firefox: [![version](https://badges.formidable.com/browsers?firefox=v0.2)](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9737674/Magister.Rode.Onvoldoendes.Firefox.v0.2.zip)
+- Download laatste versie voor Firefox:
 <!-- BEGIN LATEST DOWNLOAD BUTTON -->
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-lightblue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9737674/Magister.Rode.Onvoldoendes.Firefox.v0.2.zip)
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-lightblue?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/Doppie23/Rode-onvoldoendes-Magister/files/9745671/Magister.Rode.Onvoldoendes.Firefox.v0.3.zip)
 <!-- END LATEST DOWNLOAD BUTTON -->
 
 Een browser extensie die de onvoldoendes in Magister weer rood maakt.
