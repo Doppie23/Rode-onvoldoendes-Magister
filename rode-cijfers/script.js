@@ -52,6 +52,33 @@ function waitForElm(selector) {
     });
 }
 
+//laatste cijfers page
+MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+
+var observer = new MutationObserver(function(mutations, observer) {
+    const target = mutations[0].target
+    if (target.matches('.loading-overlay')){
+        console.log('klaar')
+        if(window.location.hash === '#/cijfers'){
+            var arr = document.body.getElementsByTagName('tr')
+            for (let i = 1; i < arr.length; i++) {
+                var row = arr[i].getElementsByTagName('td')
+                var cijfer = row[3].textContent
+                var output = parseFloat(cijfer.replace(/,/g, '.'), 2);
+                if (output < 5.5){
+                    row[3].style.color = "red"
+                }
+                
+            }
+        }
+    };
+});
+
+observer.observe(document, {
+  subtree: true,
+  attributes: true
+});
+
 MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
 var observer = new MutationObserver(function(mutations, observer) {
