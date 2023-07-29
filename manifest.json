@@ -1,36 +1,28 @@
 {
-    "name": "Magister onvoldoendes weer rood",
-    "description": "Maakt de onvoldoendes in magister weer rood.",
-    "version": "0.3",
-    "manifest_version": 2,
-    "icons": 
-        {  
-         "16": "icons/icon16.png",
-         "48": "icons/icon48.png",
-         "128": "icons/icon128.png" 
-        },
-    "permissions": [
-    "storage"
-    ],
-    "browser_action":{
-        "default_title": "Rode onvoldoendes Magister",
-        "default_popup": "popup.html"
+  "name": "Magister onvoldoendes weer rood",
+  "description": "Maakt de onvoldoendes in magister weer rood.",
+  "version": "0.4",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_title": "Rode onvoldoendes Magister",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.magister.net/magister/*", "https://*.magister.net/magister/*"],
+      "css": ["rode-cijfers/styles.css"],
+      "js": ["rode-cijfers/script.js"]
     },
-    "content_scripts": [
-        {
-         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
-         "css": ["rode-cijfers/styles.css"],
-         "js": ["rode-cijfers/script.js"]
-        },
-        {
-         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
-         "js": ["spoilertag/spoilertag.js"],
-         "css": ["spoilertag/spoiler.css"]
-        },
-        {
-         "matches": ["http://*.magister.net/magister/*","https://*.magister.net/magister/*"],
-         "js": ["oude_opdrachten/oude_opdrachten.js"]
-        }
-       ]
-    
-  }
+    {
+      "matches": ["http://*.magister.net/magister/*", "https://*.magister.net/magister/*"],
+      "js": ["spoilertag/spoilertag.js"],
+      "css": ["spoilertag/spoiler.css"]
+    }
+  ]
+}
